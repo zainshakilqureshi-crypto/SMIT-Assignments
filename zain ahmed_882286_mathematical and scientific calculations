@@ -1,0 +1,1008 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "bc8901bc-4de5-46ee-abe1-364bf462268e",
+   "metadata": {},
+   "source": [
+    " # 1.Areaof Rectangle "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bf132769-5c59-4186-bb0b-91b5cec3330c",
+   "metadata": {},
+   "source": [
+    "# Formula:Area=length * width"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "e7fdbe49-f120-4d2f-832a-5a4e2c893330",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter length:   10\n",
+      "Enter width:   5\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Area of rectangle is: 50.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "length =float(input(\"Enter length:  \"))\n",
+    "width =float(input(\"Enter width:  \"))\n",
+    "area = length * width\n",
+    "print(\"Area of rectangle is:\", area)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a710b59f-e81f-4ce2-be99-73b427e5122b",
+   "metadata": {},
+   "source": [
+    "## Q2.Circumference of a Circle"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f481dede-1cd8-4db7-8cb3-e44c0d6db86c",
+   "metadata": {},
+   "source": [
+    "# Formula:Circumference=2pi r"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 7,
+   "id": "86c992d5-f440-4b82-8cd4-098431f50e03",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter radius:   7\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "circumference of circle is : 43.98226\n"
+     ]
+    }
+   ],
+   "source": [
+    "radius = float(input(\"Enter radius:  \"))\n",
+    "circumference =2 * 3.14159 *radius \n",
+    "print(\"circumference of circle is :\",circumference)                      "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c618cafd-0db7-4eb9-abfa-8d37304819aa",
+   "metadata": {},
+   "source": [
+    "### Q3.Simple Interest"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "179c9aea-28fe-4108-8b8d-9578f92d079c",
+   "metadata": {},
+   "source": [
+    "# Formula:Simple Interest= (P * R)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 10,
+   "id": "e33c6184-bf73-4920-9a05-f298f3d07f56",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter Principal amount:  1000\n",
+      "Enter Rate %:  5\n",
+      "Enter time in years:   2\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Simple Interest is: 100.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "principal = float(input(\"Enter Principal amount: \"))\n",
+    "rate = float(input(\"Enter Rate %: \"))\n",
+    "time = float(input (\"Enter time in years:  \"))\n",
+    "\n",
+    "si =(principal * rate  * time) / 100\n",
+    "print(\"Simple Interest is:\", si)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2609971b-67c8-4372-b782-79b10bad5908",
+   "metadata": {},
+   "source": [
+    "# Q4.Speed of an object"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e02bab07-c817-4a78-9eff-2faae9739b6d",
+   "metadata": {},
+   "source": [
+    "# Formula: Speed = distance / Time "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 13,
+   "id": "aa1d1992-24ce-4680-a4e8-b4c9f73cf487",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter distance:  100\n",
+      "Enter time:  5\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "speed of the object is: 20.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "distance =float(input(\"Enter distance: \"))\n",
+    "time =float(input(\"Enter time: \"))\n",
+    "\n",
+    "speed = distance / time\n",
+    "\n",
+    "print(\"speed of the object is:\", speed)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9812ac2c-acbd-4a69-bc67-a7ba3d196c5e",
+   "metadata": {},
+   "source": [
+    "# Q5.BMI Calculator"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "83aae6b2-f899-45ed-ad64-ef44f6bb1cbd",
+   "metadata": {},
+   "source": [
+    "# Formula:BMI = Weight/Height"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "57a7795e-65dc-434c-87c5-2b77bf67dbbd",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter weight in kg:   70\n",
+      "Enter height in metres:  1.75\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "your BMI is: 22.857142857142858\n"
+     ]
+    }
+   ],
+   "source": [
+    "weight =float (input(\"Enter weight in kg:  \"))\n",
+    "height =float (input(\"Enter height in metres: \"))\n",
+    "\n",
+    "\n",
+    "bmi = weight / (height * height)\n",
+    "\n",
+    "print(\"your BMI is:\", bmi)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3b399394-2773-4939-a214-e74b8f60d789",
+   "metadata": {},
+   "source": [
+    "# Q6. Force Using Newtons's Second "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "01d22685-89e0-41f2-bddd-b8a80043db60",
+   "metadata": {},
+   "source": [
+    "# Formula: F = m * a"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "f4d3e671-32a8-40f8-a33d-a0da95970560",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter mass in kg:   10\n",
+      "Enter acceleration in m/s^2:   5\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "force on the object is: 50.0 N\n"
+     ]
+    }
+   ],
+   "source": [
+    "mass = float(input(\"Enter mass in kg:  \"))\n",
+    "acceleration =float(input(\"Enter acceleration in m/s^2:  \"))\n",
+    "\n",
+    "force =mass * acceleration \n",
+    "\n",
+    "print(\"force on the object is:\",force, \"N\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ada8a8cb-ae4e-4c13-9189-dc129f46970b",
+   "metadata": {},
+   "source": [
+    "# Q7. Compound Interest"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b088033f-5afa-40e4-9dcd-27f48e166b7d",
+   "metadata": {},
+   "source": [
+    "# Formula: A=P * (1 + r/n)^(n*t)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "acb716a1-cd9b-49d4-b313-471cac5e7e56",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter Principal Amount:  10000\n",
+      "Enter Annual interest rate in decimal:   0.05\n",
+      "Enter number of times interest in compound per year:  12\n",
+      "Enter time in years:   2\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "total amount is: 11049.413355583269\n",
+      "Compound interest is: 1049.4133555832686\n"
+     ]
+    }
+   ],
+   "source": [
+    "# P= float(input(\"Enter Principal Amount: \"))\n",
+    "r= float(input(\"Enter Annual interest rate in decimal:  \"))\n",
+    "n= float(input(\"Enter number of times interest in compound per year: \"))\n",
+    "t= float(input(\"Enter time in years:  \"))\n",
+    "\n",
+    "A = P * (1 + r/n) ** (n*t)\n",
+    "\n",
+    "print(\"total amount is:\", A)\n",
+    "print(\"Compound interest is:\", A - P)\n",
+    "      "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "24197ba3-b8d2-4e33-84fe-f1a63f407ef2",
+   "metadata": {},
+   "source": [
+    "# Q8. Perimeter of a Triangle"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "31a4312d-4ef2-41be-be58-c177b4145eae",
+   "metadata": {},
+   "source": [
+    "# Formula:Perimeter =a+b+c"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 19,
+   "id": "0403094c-5ba4-4edd-adb5-f37606be445a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter length of a side a:  5\n",
+      "Enter length of a side b:  4\n",
+      "Enter length of a side c:  3\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "perimeter of a triangle is: 12.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "a= float(input(\"Enter length of a side a: \"))\n",
+    "b= float(input(\"Enter length of a side b: \"))\n",
+    "c= float(input(\"Enter length of a side c: \"))\n",
+    "\n",
+    "perimeter = a+b+c\n",
+    "\n",
+    "print(\"perimeter of a triangle is:\",perimeter)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "281595cd-2699-4c3e-938a-e08ddcf005f9",
+   "metadata": {},
+   "source": [
+    "# Q9.Volume of a Sphere"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b03aaf2b-f93a-441e-8a5e-505ec5be6dee",
+   "metadata": {},
+   "source": [
+    "# Formula: Volume = (4/3)pi r^3"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "be98e6d3-c52d-42a0-8a1e-7e77beed86f4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter Radius of the sphere:  3\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Volume of the sphere is: 113.09733552923254\n"
+     ]
+    }
+   ],
+   "source": [
+    "import math\n",
+    "\n",
+    "r = float(input(\"Enter Radius of the sphere: \"))\n",
+    "\n",
+    "volume = (4/3) * math.pi * (r**3)\n",
+    "\n",
+    "print(\"Volume of the sphere is:\",volume)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b34673ed-591e-40a9-a442-e1987058ab70",
+   "metadata": {},
+   "source": [
+    "# Q10.Kinetic Energy"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4945479b-b912-4121-92a4-7fbd73a68e2b",
+   "metadata": {},
+   "source": [
+    "# Formula:KE = (1/2) * m * V^2"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 22,
+   "id": "7e81db96-c57c-46d9-b6e5-2a07dc0ff12f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter Mass in Kg:   10\n",
+      "Enter Velocity in m/s:  5\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Kinetic Energy is: 125.0 J\n"
+     ]
+    }
+   ],
+   "source": [
+    "m= float(input(\"Enter Mass in Kg:  \"))\n",
+    "v= float(input(\"Enter Velocity in m/s: \"))\n",
+    "\n",
+    "KE = 0.5 * m * (v ** 2)\n",
+    "\n",
+    "print(\"Kinetic Energy is:\", KE, \"J\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "e2fd48eb-9390-4812-9352-415c77d06035",
+   "metadata": {},
+   "source": [
+    "# Q11.Quadritic Equation Roots"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6c23bce2-8a61-41e4-ac91-36adca522069",
+   "metadata": {},
+   "source": [
+    "# Formula: X =(-b+- sqrt(b^2-4ac)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "872860b1-cf7e-4185-b8fe-b4d930517858",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter coefficient a:  1\n",
+      "Enter coefficient b:  5\n",
+      "Enter coefficient c:  6\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "two real roots are: -2.0 and -3.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "import math \n",
+    "a =float(input(\"Enter coefficient a: \"))\n",
+    "b =float(input(\"Enter coefficient b: \"))\n",
+    "c =float(input(\"Enter coefficient c: \"))\n",
+    "\n",
+    "d= (b**2) - (4*a*c)  # discriminant\n",
+    "if d > 0:\n",
+    "    root1= (-b + math.sqrt(d)) / (2*a)\n",
+    "    root2= (-b - math.sqrt(d)) / (2*a)\n",
+    "    print(\"two real roots are:\", root1, \"and\", root2)\n",
+    "elif d==0:\n",
+    "    root = -b / (2*a)\n",
+    "    print(\"one real root is:\", root)\n",
+    "else:\n",
+    "    real =-b / (2*a)\n",
+    "    imag = math.sqrt(-d) / (2*a)\n",
+    "    print(\"complex roots are:\",real, \"+\", imag, \"i and\",real, \"-\", imag, \"i\") \n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "7eb748a4-55c2-4931-8a0b-064393d54954",
+   "metadata": {},
+   "source": [
+    "# Q12.Tempreature Conversion"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d89b4a14-caa3-4e4c-bc97-c3c818c87f3a",
+   "metadata": {},
+   "source": [
+    "# Formula: F= (9/5) *  C + 32"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 30,
+   "id": "a50b60f0-ba35-4729-96c2-7105ca4d2e2f",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter tempreature in Celsius:  25\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "tempreature in ferherneit is: 77.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "c=float(input(\"Enter tempreature in Celsius: \"))\n",
+    "\n",
+    "f=(9/5) * c + 32\n",
+    "\n",
+    "print(\"tempreature in ferherneit is:\", f)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "98786a54-e1db-4531-83df-2403108c8c80",
+   "metadata": {},
+   "source": [
+    "# Q13.Gravitational Force"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d82ee269-6197-4a19-a676-fdcceb04068a",
+   "metadata": {},
+   "source": [
+    "# Formula:F = G * (m1 * m2) / r^2 G=6.67430e-11"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 36,
+   "id": "e3a8c90d-733b-4176-b91e-da198ffb8b70",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter mass of object 1 in kg;   5.972e24\n",
+      "Enter mass of object 2 in kg;   7.348e22\n",
+      "Enter distance between centres in metres;   38440000\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Gravitational force is; 1.982110729079252e+22 Newton\n"
+     ]
+    }
+   ],
+   "source": [
+    "G= 6.67430e-11  # gravitatational constasnt \n",
+    "\n",
+    "m1=float(input(\"Enter mass of object 1 in kg;  \"))\n",
+    "m2=float(input(\"Enter mass of object 2 in kg;  \"))  \n",
+    "r=float(input(\"Enter distance between centres in metres;  \"))\n",
+    "\n",
+    "f=G *(m1 * m2)/(r**2)\n",
+    "\n",
+    "print(\"Gravitational force is;\", f,\"Newton\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "2733eb54-9cd7-4e33-b3d0-085162fd2d00",
+   "metadata": {},
+   "source": [
+    "# Q14.Volume of a Cylinder "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3356e12a-cecb-4369-859f-0000d1e3361d",
+   "metadata": {},
+   "source": [
+    "# Formuka:Volume =Pi * r^2 *h"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "ccb8bd2d-0318-4bfb-a6b8-aed9b565906d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter radius of cylinder:   5\n",
+      "Enter height of cylinder:   10\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Volume of cylinder is: 785.3981633974483\n"
+     ]
+    }
+   ],
+   "source": [
+    "import math\n",
+    "\n",
+    "r=float(input(\"Enter radius of cylinder:  \"))\n",
+    "h=float(input(\"Enter height of cylinder:  \"))\n",
+    "\n",
+    "volume = math.pi * (r**2) *h\n",
+    "\n",
+    "print(\"Volume of cylinder is:\",volume)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "092aea63-e9f8-4979-b6ae-3be5d2e38154",
+   "metadata": {},
+   "source": [
+    "# Q15.Pressure"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "da7e28d0-87b6-41ff-803b-0b670f78dbcf",
+   "metadata": {},
+   "source": [
+    "# Formula:P = F / A P= Pressure, F= Force, A =Area\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "a8a17c9c-f77a-4215-be29-a3b47a329f55",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter Force in Newton:   100\n",
+      "Enter Area in square metres:   10\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Pressure is: 10.0 Pascal\n"
+     ]
+    }
+   ],
+   "source": [
+    "F=float(input(\"Enter Force in Newton:  \"))\n",
+    "A=float(input(\"Enter Area in square metres:  \"))\n",
+    "\n",
+    "p = F/A\n",
+    "\n",
+    "print(\"Pressure is:\",p, \"Pascal\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8f6bf109-4d06-4762-9741-dd89af0a16ca",
+   "metadata": {},
+   "source": [
+    "# Q16.Electric Power"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "88b5b93b-95ff-4415-bc1a-20849f66581d",
+   "metadata": {},
+   "source": [
+    "# Formula: P = V / I P = Power, V =Voltage, I =Current"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 48,
+   "id": "dd025377-3a04-42b3-b7b8-9e9ead59ac53",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter voltage in volts:   220\n",
+      "Enter current in amphere   10\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Electric power is: 22.0 Watt\n"
+     ]
+    }
+   ],
+   "source": [
+    "V=float(input(\"Enter voltage in volts:  \"))\n",
+    "I=float(input(\"Enter current in amphere  \"))\n",
+    "\n",
+    "p=V / I\n",
+    "\n",
+    "print(\"Electric power is:\",p, \"Watt\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0d3943a3-94a5-4755-a4e3-eafc36160d24",
+   "metadata": {},
+   "source": [
+    "# Q17.Perimeter of a circle (Circumference) "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6169507e-8e75-495e-adb4-70d5a68f11a3",
+   "metadata": {},
+   "source": [
+    "# Formula:P = 2 * Pi * r P= Perimeter, r= radius"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "id": "9793ea40-8d9d-4502-9fba-42d369b38154",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter radius of circle:   7\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Perimeter of a circle is: 43.982297150257104\n"
+     ]
+    }
+   ],
+   "source": [
+    "import math\n",
+    "\n",
+    "r=float(input(\"Enter radius of circle:  \"))\n",
+    "\n",
+    "P = 2 * math.pi * r\n",
+    "\n",
+    "print(\"Perimeter of a circle is:\", P)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "21b73c71-bb9b-48ed-a88b-a47cd42d4a3c",
+   "metadata": {},
+   "source": [
+    "# Q18.Future Volume in Savings  "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "885ee9c6-38ee-4c86-aa85-9ed9d7b83e60",
+   "metadata": {},
+   "source": [
+    "# Formula: FV = PV * (1 + r)^t  FV= future value,PV= present value,r= Annual interest Rate in decimal, t= Time in years"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 50,
+   "id": "030eff0b-9572-4d72-b1f7-a95256539c15",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter Present Value:   100\n",
+      "Enter Annual Interest Rate in decimal e.g 0.05 for 5%:   0.05\n",
+      "Enter Time in years:   2\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Future Value is: 110.25\n"
+     ]
+    }
+   ],
+   "source": [
+    "PV=float(input(\"Enter Present Value:  \"))\n",
+    "r=float(input(\"Enter Annual Interest Rate in decimal e.g 0.05 for 5%:  \"))\n",
+    "t=float(input(\"Enter Time in years:  \"))\n",
+    "\n",
+    "FV = PV * (1 + r) ** t\n",
+    "\n",
+    "print(\"Future Value is:\", FV)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4aed3871-d363-4b9f-ac98-9e027b948546",
+   "metadata": {},
+   "source": [
+    "# Q19.Work Done By a Force "
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "65d9f8a7-83f4-4399-86da-e780a0f0d2d5",
+   "metadata": {},
+   "source": [
+    "# Formula:W = F * d * Cos theta W= Work Done, F= Force, d= distance, theta= Angle in degrees"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "id": "0c4ea2b1-0adf-49ba-be71-90f2a0acedae",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter Force in Newton:   10\n",
+      "Enter distance in meter:   5\n",
+      "Enter angle in degrees:   1\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Work Done is: 49.992384757819565 Joule\n"
+     ]
+    }
+   ],
+   "source": [
+    "import math\n",
+    "\n",
+    "f=float(input(\"Enter Force in Newton:  \"))\n",
+    "d=float(input(\"Enter distance in meter:  \"))\n",
+    "theta_deg=float(input(\"Enter angle in degrees:  \"))\n",
+    "\n",
+    "theta_rad =math.radians (theta_deg)\n",
+    "\n",
+    "W= f*d*math.cos(theta_rad)\n",
+    "\n",
+    "print(\"Work Done is:\",W, \"Joule\")"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "fa08cdaa-ed48-4fbe-8a2b-5ac99b97acb9",
+   "metadata": {},
+   "source": [
+    "# Q20. Heat Transfer"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "569a69ac-afad-4ed0-b5dd-213d9f9550dc",
+   "metadata": {},
+   "source": [
+    "# Formula: Q=m * c * delta T  Q= Heat Transfer, m= mass, c= Specific Heat Capicity delta t= Change in Tempreature= T2 - T1"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "id": "7ae7c687-d601-452f-b0f8-ad10a86843d8",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdin",
+     "output_type": "stream",
+     "text": [
+      "Enter Mass in kg:   2\n",
+      "Enter Specific Heat capicity in J/kg C:   4186\n",
+      "Enter initial tempreature in C:   20\n",
+      "Enter Final tempreature in C:   70\n"
+     ]
+    },
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Heat Transfer is: 418600.0 Joule\n"
+     ]
+    }
+   ],
+   "source": [
+    "m=float(input(\"Enter Mass in kg:  \"))\n",
+    "c=float(input(\"Enter Specific Heat capicity in J/kg C:  \"))\n",
+    "T1=float(input(\"Enter initial tempreature in C:  \"))\n",
+    "T2=float(input(\"Enter Final tempreature in C:  \"))\n",
+    "\n",
+    "delta_T = T2 - T1\n",
+    "\n",
+    "Q = m * c * delta_T\n",
+    "\n",
+    "print(\"Heat Transfer is:\",Q, \"Joule\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "c404c1e3-5215-409c-b248-5ff3b3543985",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.14.6"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
