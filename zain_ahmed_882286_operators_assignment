@@ -1,0 +1,1417 @@
+{
+ "cells": [
+  {
+   "cell_type": "markdown",
+   "id": "b0304452-4e96-4dc3-a780-e32590653a7b",
+   "metadata": {},
+   "source": [
+    "## A food delivery order has 3 items, each costing Rs. 450. The delivery fee is Rs. 100\n",
+    "    Create variables and calculate the final bill."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9d816e53-133e-4a0e-b1e8-0bafe91eec93",
+   "metadata": {},
+   "source": [
+    "### Question:1 FOOD DELIVERY BILL"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 15,
+   "id": "1005fe5e-0e6b-45ad-9d21-bdf7e4d71d4e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "total item cost: 1350\n",
+      "delivery fee: 100\n",
+      "final bill: 1450\n"
+     ]
+    }
+   ],
+   "source": [
+    "item_price =450\n",
+    "number_of_item =3\n",
+    "delivery_fee =100\n",
+    "total_item_cost = item_price * number_of_item\n",
+    "final_bill = total_item_cost + delivery_fee\n",
+    "print(\"total item cost:\", total_item_cost)\n",
+    "print(\"delivery fee:\", delivery_fee)\n",
+    "print(\"final bill:\", final_bill)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "bc49849a-ce72-4ac9-ba7e-2c78c61d5034",
+   "metadata": {},
+   "source": [
+    "## You have Rs. 5,000 in your bank account. You spend Rs. 1,750 on groceries.\n",
+    "\n",
+    "    Create variables and calculate your remaining balance."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f4e93dc4-683f-4195-81f6-7a1af95a4ee6",
+   "metadata": {},
+   "source": [
+    "### Quetion:2 BANK BALANCE "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 14,
+   "id": "5f26a046-5ad5-4b9c-9bd2-f2e3257aff59",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "initial balance: 5000\n",
+      "spent on groceries: 1750\n",
+      "remaining balance: 3250\n"
+     ]
+    }
+   ],
+   "source": [
+    "initial_balance =5000\n",
+    "groceries_spent =1750\n",
+    "remaining_balance = initial_balance - groceries_spent\n",
+    "print(\"initial balance:\", initial_balance)\n",
+    "print(\"spent on groceries:\", groceries_spent)\n",
+    "print(\"remaining balance:\", remaining_balance)\n",
+    "\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "96dd1583-b930-497f-b573-8bdae55c25e9",
+   "metadata": {},
+   "source": [
+    "## A taxi charges Rs. 300 as a base fare and Rs. 50 per kilometer. You travel 8 km.\n",
+    "\n",
+    "    Create variables and calculate the total fare."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "955098cc-2207-48d5-a3c4-c3f45da706b0",
+   "metadata": {},
+   "source": [
+    "### Question:3 TAXI FARE"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 17,
+   "id": "ea42e0d1-8353-443f-8216-2887568607d1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "base fare: 300\n",
+      "distance fare: 400\n",
+      "total fare: 700\n"
+     ]
+    }
+   ],
+   "source": [
+    "base_fare =300\n",
+    "rate_per_km =50\n",
+    "distance_km =8\n",
+    "fare_for_distance = rate_per_km * distance_km\n",
+    "total_fare = base_fare + fare_for_distance\n",
+    "print(\"base fare:\", base_fare)\n",
+    "print(\"distance fare:\", fare_for_distance)\n",
+    "print(\"total fare:\", total_fare)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "438d1251-7d42-4dc5-944c-dd206a61764d",
+   "metadata": {},
+   "source": [
+    "## A movie ticket costs Rs. 750. You buy 4 tickets and pay Rs. 3,500.\n",
+    "\n",
+    "    Create variables and calculate the remaining amount after payment."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "134b82a7-067f-42db-aeb7-f37e7851efb7",
+   "metadata": {},
+   "source": [
+    "### Question:4 MOVIE TICKETS BALANCE "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 20,
+   "id": "d4686810-e911-42d6-aec5-845a6389767a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "price of one ticket: 750\n",
+      "numberof ticket: 4\n",
+      "total cost: 3000\n",
+      "amount paid: 3500\n",
+      "remaining amount: 500\n"
+     ]
+    }
+   ],
+   "source": [
+    "ticket_price =750\n",
+    "number_of_ticket =4\n",
+    "amount_paid =3500\n",
+    "total_cost = ticket_price * number_of_ticket\n",
+    "remaining_amount = amount_paid - total_cost\n",
+    "print(\"price of one ticket:\", ticket_price)\n",
+    "print(\"numberof ticket:\", number_of_ticket)\n",
+    "print(\"total cost:\", total_cost)\n",
+    "print(\"amount paid:\", amount_paid)\n",
+    "print(\"remaining amount:\", remaining_amount)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b9745a90-ba65-48b7-abbd-e3cf64518e28",
+   "metadata": {},
+   "source": [
+    "## student has Rs. 2,500. They spend Rs. 750 on a book and Rs. 300 on a notebook.\n",
+    "\n",
+    "### Task:\n",
+    "    Create variables for:\n",
+    "\n",
+    "        Initial money\n",
+    "        Book price\n",
+    "        Notebook price\n",
+    "\n",
+    "#### Then calculate and print the remaining money."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "744ec821-6f9a-4cfa-9e23-8417ae2460ce",
+   "metadata": {},
+   "source": [
+    "### Question:5 REMAINING MONEY "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "5838d5fd-dd44-4a50-8341-fb963713c69d",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "initial money: 2500\n",
+      "spent on book: 750\n",
+      "spent on book: 500\n",
+      "total spent: 1250\n",
+      "remaining money: 1250\n"
+     ]
+    }
+   ],
+   "source": [
+    "initial_money =2500\n",
+    "book_price =750\n",
+    "notebook_price =500\n",
+    "total_spent = book_price + notebook_price\n",
+    "remaining_money = initial_money - total_spent\n",
+    "print(\"initial money:\", initial_money)\n",
+    "print(\"spent on book:\", book_price)\n",
+    "print(\"spent on book:\", notebook_price)\n",
+    "print(\"total spent:\", total_spent)\n",
+    "print(\"remaining money:\", remaining_money)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "92ed099a-59dc-4625-adc1-db1126de7410",
+   "metadata": {},
+   "source": [
+    "## A shop sells 5 notebooks. Each notebook costs Rs. 120.\n",
+    "\n",
+    "### Task:\n",
+    "    Create variables for:\n",
+    "\n",
+    "        Number of notebooks\n",
+    "        Price of one notebook\n",
+    "\n",
+    "#### Then calculate and print the total cost."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3175fde6-70cb-4b27-aeca-e7ca4b573461",
+   "metadata": {},
+   "source": [
+    "### Question:6 NOTEBOOK TOTAL COST "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 23,
+   "id": "fbdab083-ecdd-4678-b691-4d961d993bec",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "number of notebook: 5\n",
+      "price of one notebook: 120\n",
+      "total cost: 600\n"
+     ]
+    }
+   ],
+   "source": [
+    "number_of_notebook =5\n",
+    "price_of_one_notebook =120\n",
+    "total_cost = number_of_notebook * price_of_one_notebook\n",
+    "print(\"number of notebook:\", number_of_notebook)\n",
+    "print(\"price of one notebook:\", price_of_one_notebook)\n",
+    "print(\"total cost:\", total_cost)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "dc1ed152-7e14-483a-87a4-4aec1bbe7ce0",
+   "metadata": {},
+   "source": [
+    "## A teacher has Rs. 5,000 and wants to distribute it equally among 4 students.\n",
+    "\n",
+    "### Task:\n",
+    "    Create variables for:\n",
+    "\n",
+    "    Total money\n",
+    "    Number of students\n",
+    "#### Then calculate and print how much money each student receives."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "fa9ab539-84ea-467b-9b5b-c4d3f221a819",
+   "metadata": {},
+   "source": [
+    "### Question:7 EQUAL DISTRIBUITION  "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 24,
+   "id": "b87cf766-18a6-4645-80d9-82a6dd66d263",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "total money: 5000\n",
+      "number of student: 4\n",
+      "money per student: 1250.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "total_money =5000\n",
+    "number_of_student =4\n",
+    "money_per_student = total_money / number_of_student\n",
+    "print(\"total money:\", total_money)\n",
+    "print(\"number of student:\", number_of_student)\n",
+    "print(\"money per student:\", money_per_student)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "86895ea7-859a-45d3-ba40-8a02d4bf9bff",
+   "metadata": {},
+   "source": [
+    "## A school has 47 students. Each classroom can hold 10 students.\n",
+    "\n",
+    "### Task:\n",
+    "    Create variables for:\n",
+    "\n",
+    "        Total students\n",
+    "        Students per classroom\n",
+    "\n",
+    "### Then calculate and print the number of students left over after filling the classrooms."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "835be901-cceb-4535-a2fb-6e67e65c1f94",
+   "metadata": {},
+   "source": [
+    "### Question:8 STUDENTS LEFT OVER "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 27,
+   "id": "4428d53e-7fd2-4f9d-abf1-df6c9aa0efa1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "total students: 47\n",
+      "students per classroom: 10\n",
+      "students left over: 7\n"
+     ]
+    }
+   ],
+   "source": [
+    "total_students =47\n",
+    "students_per_classroom =10\n",
+    "students_left_over = total_students % students_per_classroom\n",
+    "print(\"total students:\", total_students)\n",
+    "print(\"students per classroom:\", students_per_classroom)\n",
+    "print(\"students left over:\", students_left_over)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ebccc474-4a6b-4f42-8eb7-990d6df6df8b",
+   "metadata": {},
+   "source": [
+    "## A restaurant has 53 customers. Each table can seat 6 customers.\n",
+    "\n",
+    "### Task:\n",
+    "    Create variables for:\n",
+    "\n",
+    "        Total customers\n",
+    "        Customers per table\n",
+    "\n",
+    "### Then calculate and print the maximum number of completely filled tables."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "82e35235-ac49-4f98-8855-2c71083d9f05",
+   "metadata": {},
+   "source": [
+    "### Question:9 COMPLETELY FILLED TABLES"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 28,
+   "id": "eb505b77-9bb8-44e5-a770-7db5b684720a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "total customers: 53\n",
+      "customers per table: 6\n",
+      "completely filled table: 8\n"
+     ]
+    }
+   ],
+   "source": [
+    "total_customers =53\n",
+    "customers_per_table =6\n",
+    "filled_table = total_customers // customers_per_table\n",
+    "print(\"total customers:\", total_customers)\n",
+    "print(\"customers per table:\", customers_per_table)\n",
+    "print(\"completely filled table:\", filled_table)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "6edcdbbe-c01c-44b2-91f3-d9f5ad22c0b2",
+   "metadata": {},
+   "source": [
+    "## A restaurant sells 3 burgers for Rs. 450 each and 2 drinks for Rs. 150 each.\n",
+    "\n",
+    "### Task:\n",
+    "    Create variables for:\n",
+    "\n",
+    "    Number of burgers\n",
+    "    Burger price\n",
+    "    Number of drinks\n",
+    "    Drink price\n",
+    "\n",
+    "### Calculate and print the total bill."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f4c22f04-375a-4c44-85ce-85adf439692d",
+   "metadata": {},
+   "source": [
+    "### Question:10 RESTAURANT TOTAL BILL"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 32,
+   "id": "a2d066c8-cf8c-4a30-ba5a-f52539f9799b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "burgers: 3 x 450 = 1350\n",
+      "drinks: 2 x 150 = 300\n",
+      "total bill: 1650\n"
+     ]
+    }
+   ],
+   "source": [
+    "number_of_burgers =3\n",
+    "burgers_price =450\n",
+    "number_of_drinks =2\n",
+    "drinks_price =150\n",
+    "burgers_total = number_of_burgers * burgers_price\n",
+    "drinks_total = number_of_drinks * drinks_price\n",
+    "total_bill = burgers_total + drinks_total\n",
+    "print(\"burgers:\",number_of_burgers, \"x\",burgers_price, \"=\", burgers_total)\n",
+    "print(\"drinks:\", number_of_drinks, \"x\",drinks_price, \"=\",drinks_total)\n",
+    "print(\"total bill:\",total_bill)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "37308a52-b807-456e-b52f-be1f2865ac6c",
+   "metadata": {},
+   "source": [
+    "## A student has Rs. 1,000 in their wallet. They receive Rs. 500 from their parents.\n",
+    "\n",
+    "### Task:\n",
+    "    Create a variable money with the initial amount. Then add the received amount using the += operator\n",
+    "\n",
+    "    Finally, print the updated money."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0dc80908-5b47-4ac3-ab9d-06b5d3d0cce9",
+   "metadata": {},
+   "source": [
+    "### Question:11 MONEY WITH += OPERATORS"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 33,
+   "id": "6cd5e223-523e-482e-b4ef-9e514db9551a",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "initial money: 1000\n",
+      "received amount: 500\n",
+      "updated money: 1500\n"
+     ]
+    }
+   ],
+   "source": [
+    "money =1000\n",
+    "received_amount =500\n",
+    "money += received_amount\n",
+    "print(\"initial money:\", 1000)\n",
+    "print(\"received amount:\", received_amount)\n",
+    "print(\"updated money:\", money)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1a1b85bd-a723-49c8-9f62-ab34164338b2",
+   "metadata": {},
+   "source": [
+    "## A student has Rs. 2,000 in their wallet. They spend Rs. 650 on food.\n",
+    "\n",
+    "### Task:\n",
+    "    Create a variable money with the initial amount. Then subtract the food cost using the -= operator.\n",
+    "\n",
+    "    Finally, print the remaining money."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f72a27c8-abee-49dd-a890-8e5f1b4d17fb",
+   "metadata": {},
+   "source": [
+    "### Question:12 REMAINING MONEY WITH -= OPERATORS"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 34,
+   "id": "2d9308cb-023d-4328-b179-590b6681871b",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "initial money: 2000\n",
+      "spent on food: 650\n",
+      "remaining money: 1350\n"
+     ]
+    }
+   ],
+   "source": [
+    "money =2000\n",
+    "food_cost =650\n",
+    "money -= food_cost\n",
+    "print(\"initial money:\", 2000)\n",
+    "print(\"spent on food:\", food_cost)\n",
+    "print(\"remaining money:\", money)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b7c9817b-97a1-43bd-b902-e69832ba043d",
+   "metadata": {},
+   "source": [
+    "## A water tank contains 100 liters of water. After some usage, the amount of water becomes half of the original amount.\n",
+    "\n",
+    "### Task:\n",
+    "    Create a variable water = 100. Then divide it by 2 using the /= operator.\n",
+    "\n",
+    "    Finally, print the remaining water."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a75c12b0-d509-4ba2-8efc-3d2934996f91",
+   "metadata": {},
+   "source": [
+    "### Question:13 REMAINING WATER WITH /= OPERATORS\n"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 35,
+   "id": "7e0d87ba-16c2-4644-beb0-a10141bd019e",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "initial water: 100\n",
+      "remaining water: 50.0\n"
+     ]
+    }
+   ],
+   "source": [
+    "water =100\n",
+    "water /=2\n",
+    "print(\"initial water:\", 100)\n",
+    "print(\"remaining water:\", water)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ee61f9ed-6346-444c-a87f-9f636e6e636c",
+   "metadata": {},
+   "source": [
+    "## A student needs 50 marks to pass an exam. They scored 72 marks.\n",
+    "\n",
+    "### Task:\n",
+    "    Create variables for:\n",
+    "\n",
+    "        Passing marks\n",
+    "        Student marks\n",
+    "#### check whether the student scored more than the passing marks.\n",
+    "\n",
+    "#### Print the result.\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "02a41fe9-83bd-4981-a5b9-44944ddf094b",
+   "metadata": {},
+   "source": [
+    "### Question:14 CHECK PASS OR FAIL"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 37,
+   "id": "b05eedf6-4222-4d6e-b40d-2e7b66c996a5",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "passing marks: 50\n",
+      "student marks: 72\n",
+      "did student pass: True\n"
+     ]
+    }
+   ],
+   "source": [
+    "passing_marks =50\n",
+    "student_marks =72\n",
+    "result = student_marks > passing_marks\n",
+    "print(\"passing marks:\", passing_marks)\n",
+    "print(\"student marks:\", student_marks)\n",
+    "print(\"did student pass:\", result)\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b3340efe-26ba-4a78-b751-3203220c635e",
+   "metadata": {},
+   "source": [
+    "## A student scored 85 marks in Mathematics and 85 marks in Science.\n",
+    "\n",
+    "    Create variables for both scores and check whether the two scores are equal.\n",
+    "\n",
+    "    Print the result."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "5625e7da-64c2-41eb-9817-f203a9fc68b6",
+   "metadata": {},
+   "source": [
+    "### Question:15 CHECK EQUAL SCORES"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 39,
+   "id": "c80c6326-cacc-4d9b-825e-0f2cccf588b4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "math marks: 85\n",
+      "science marks: 85\n",
+      "are both scores equal: True\n"
+     ]
+    }
+   ],
+   "source": [
+    "math_marks =85\n",
+    "science_marks =85\n",
+    "result = math_marks == science_marks\n",
+    "print(\"math marks:\", math_marks)\n",
+    "print(\"science marks:\", science_marks)\n",
+    "print(\"are both scores equal:\", result)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a5a96dd1-f417-476d-8803-a5b71d29a791",
+   "metadata": {},
+   "source": [
+    "## A shop has 120 apples and 95 oranges.\n",
+    "\n",
+    "    Create variables for both quantities and check whether the number of apples is less than the number of oranges.\n",
+    "\n",
+    "    Print the result."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "8e66a90b-ae78-43fd-9f24-2096c66aae49",
+   "metadata": {},
+   "source": [
+    "### Question:16 COMPARES APPLES AND ORANGES"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 40,
+   "id": "329edd98-1899-44cc-b097-046fc70f75cc",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "apples: 120\n",
+      "oranges: 95\n",
+      "are apples less than oranges: False\n"
+     ]
+    }
+   ],
+   "source": [
+    "apples =120\n",
+    "oranges =95\n",
+    "result = apples < oranges\n",
+    "print(\"apples:\", apples)\n",
+    "print(\"oranges:\", oranges)\n",
+    "print(\"are apples less than oranges:\", result)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "3735c715-9cc1-42c2-b478-2a2bc3b4d83f",
+   "metadata": {},
+   "source": [
+    "## A bus can carry a maximum of 40 passengers. There are 35 passengers waiting to board.\n",
+    "\n",
+    "    Create variables for the bus capacity and number of passengers, then check whether the number of passengers is greater than or equal to the bus capacity.\n",
+    "    \n",
+    "    Print the result."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4bb56dcb-6752-4a85-af2a-9158d51882eb",
+   "metadata": {},
+   "source": [
+    "### Question:17 BUS CAPICITY CHECK"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 41,
+   "id": "e08a3ded-c693-45eb-be88-9fc9b79cf473",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "bus capicity: 40\n",
+      "pessengers waiting: 35\n",
+      "is bus full or over capicity: False\n"
+     ]
+    }
+   ],
+   "source": [
+    "bus_capicity =40\n",
+    "pessengers =35\n",
+    "result = pessengers >= bus_capicity\n",
+    "print(\"bus capicity:\", bus_capicity)\n",
+    "print(\"pessengers waiting:\", pessengers)\n",
+    "print(\"is bus full or over capicity:\", result)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "09fddb4a-98cb-475d-913d-fd64c1b16bb5",
+   "metadata": {},
+   "source": [
+    "## A mobile phone costs Rs. 45,000. You have Rs. 50,000.\n",
+    "\n",
+    "    Create variables for the phone price and your available money. Check whether your available money is not equal to the phone price.\n",
+    "    \n",
+    "    Print the result."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "87dbda55-216b-48fb-83e4-08294de70a83",
+   "metadata": {},
+   "source": [
+    "### Question:18 CHECK MONEY VS PHONE PRICE"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 42,
+   "id": "35c1b37a-df5c-4f55-806f-92c297894bdb",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "phone price: 45000\n",
+      "your money: 50000\n",
+      "is your money  not equal to phone price: True\n"
+     ]
+    }
+   ],
+   "source": [
+    "phone_price =45000\n",
+    "avaliable_money =50000\n",
+    "result = avaliable_money != phone_price\n",
+    "print(\"phone price:\", phone_price)\n",
+    "print(\"your money:\", avaliable_money)\n",
+    "print(\"is your money  not equal to phone price:\", result)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "45d22bab-0eee-46ad-8972-a958b10e5a52",
+   "metadata": {},
+   "source": [
+    "## A student can enter a competition if they are 18 years or older and have scored at least 70 marks.\n",
+    "\n",
+    "#### The student is 20 years old and scored 75 marks.\n",
+    "\n",
+    "    Create variables for age and marks, then check whether the student is eligible to enter the competition.\n",
+    "\n",
+    "    Print the result."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a99b2e94-4912-4d2b-838e-f43d8e68426e",
+   "metadata": {},
+   "source": [
+    "### Question:19 COMPETITION ELIGIBILITY CHECK "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 43,
+   "id": "5e38506d-10b4-401d-8254-f1d459b336b0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "age: 20\n",
+      "marks: 75\n",
+      "is student eligible: True\n"
+     ]
+    }
+   ],
+   "source": [
+    "age =20\n",
+    "marks =75\n",
+    "result = (age >= 18) and (marks >= 70)\n",
+    "print(\"age:\",age)\n",
+    "print(\"marks:\", marks)\n",
+    "print(\"is student eligible:\", result)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "860d6f19-38a6-4881-932f-c0d5a69163f3",
+   "metadata": {},
+   "source": [
+    "## A customer gets a free delivery if their order is Rs. 2,000 or more or they have a premium membership.\n",
+    "\n",
+    "#### The customer’s order is Rs. 1,500 and they have a premium membership.\n",
+    "\n",
+    "    Create variables for the order amount and membership status, then check whether the customer gets free delivery.\n",
+    "    \n",
+    "    Print the result."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9505c2fe-5a6f-4498-9f52-9d9aa8c938a7",
+   "metadata": {},
+   "source": [
+    "### Question:20 FREE DELIVERY CHECK"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 46,
+   "id": "e5a6c3a1-42e3-417a-b3b1-4722e452a1fa",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "order amount: 1500\n",
+      "premium member: True\n",
+      "is free delivery avaliable: True\n"
+     ]
+    }
+   ],
+   "source": [
+    "order_amount =1500\n",
+    "premium_member =True\n",
+    "result = (order_amount >= 2000) or (premium_member == True)\n",
+    "print(\"order amount:\", order_amount)\n",
+    "print(\"premium member:\", premium_member)\n",
+    "print(\"is free delivery avaliable:\", result)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9fcc2c9a-4980-4df4-80f8-0dcbf7a94600",
+   "metadata": {},
+   "source": [
+    "## A student is eligible for a scholarship if their marks are 80 or higher and their attendance is 75% or higher.\n",
+    "\n",
+    "#### The student has 85 marks and 80% attendance.\n",
+    "\n",
+    "    Create variables for the marks and attendance, then check whether the student is eligible for the scholarship.\n",
+    "\n",
+    "    Print the result."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c97f8219-56d4-4243-bff0-bff8e66bde21",
+   "metadata": {},
+   "source": [
+    "### Question:21 SCHOLAR ELIGIBILITY CHECK"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 47,
+   "id": "9620bc7e-2d77-4b2b-ab81-c651008bfb3c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "marks: 85\n",
+      "attendence %: 80\n",
+      "is student eligible for scholarship: True\n"
+     ]
+    }
+   ],
+   "source": [
+    "marks =85 \n",
+    "attendence =80\n",
+    "result = (marks >= 80) and (attendence >= 75)\n",
+    "print(\"marks:\", marks)\n",
+    "print(\"attendence %:\", attendence)\n",
+    "print(\"is student eligible for scholarship:\", result)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "ebaf42ac-67c9-4960-be9e-982f8b93bc3e",
+   "metadata": {},
+   "source": [
+    "## A username is stored as:\n",
+    "\n",
+    "    username = \"ubaid_memon_ai\"\n",
+    "\n",
+    "    Create a variable containing \"ai\" and check whether those characters are present inside the username.\n",
+    "\n",
+    "    Print the result."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "823ad36f-2a84-4bac-b8d1-918e0a372f91",
+   "metadata": {},
+   "source": [
+    "### Question:22 CHECK \"AI\" IN USER NAME"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 49,
+   "id": "1c046c54-f711-42d9-8111-a1dd146209c0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "username: ubaid_memon_ai\n",
+      "checking for: ai\n",
+      "is 'ai' present in username: True\n"
+     ]
+    }
+   ],
+   "source": [
+    "username =\"ubaid_memon_ai\"\n",
+    "check_text =\"ai\"\n",
+    "result = check_text in username\n",
+    "print(\"username:\",username)\n",
+    "print(\"checking for:\", check_text)\n",
+    "print(\"is 'ai' present in username:\", result)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0881e8d1-cfcf-4e9c-875d-bda261d2addb",
+   "metadata": {},
+   "source": [
+    "## A company email is stored as:\n",
+    "\n",
+    "    email = \"student@gmail.com\"\n",
+    "\n",
+    "    Create a variable containing \"@\" and check whether it is present in the email address.\n",
+    "    \n",
+    "    Print the result."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "1467fe4d-216e-42d3-9f57-0d9ada1c7bd9",
+   "metadata": {},
+   "source": [
+    "### Question:23 CHECK \"G\" IN EMAIL ADDRESS"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 51,
+   "id": "44e61c4a-1f77-4b6d-8b6e-02312e903201",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "email: student@gmail.com\n",
+      "checking for: g\n",
+      "is 'g' present in email: True\n"
+     ]
+    }
+   ],
+   "source": [
+    "email =\"student@gmail.com\"\n",
+    "check_text =\"g\"\n",
+    "result = check_text in email\n",
+    "print(\"email:\", email)\n",
+    "print(\"checking for:\", check_text)\n",
+    "print(\"is 'g' present in email:\", result)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b58e15bb-ca4c-43df-858f-5ee542c8a057",
+   "metadata": {},
+   "source": [
+    "## Two variables store the same value:\n",
+    "\n",
+    "    a = 100\n",
+    "    b = a\n",
+    "\n",
+    "    Check whether a and b refer to the same object.\n",
+    "    \n",
+    "    Print the result."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "4046a19e-ca74-408f-ab48-02a0e0cdcf5c",
+   "metadata": {},
+   "source": [
+    "### Question:24 CHECK IF A AND B REFER TO SAME OBJECT"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 52,
+   "id": "43c21d0f-6843-40b0-842a-ea5a1b69a40c",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "a: 100\n",
+      "b: 100\n",
+      "do a and b refer to the same object: True\n"
+     ]
+    }
+   ],
+   "source": [
+    "a =100\n",
+    "b =a \n",
+    "result = a is b\n",
+    "print(\"a:\", a)\n",
+    "print(\"b:\",b)\n",
+    "print(\"do a and b refer to the same object:\", result)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0b064b3f-da02-4f58-8c6a-7af636c6d362",
+   "metadata": {},
+   "source": [
+    "## A user enters their name:\n",
+    "\n",
+    "    name = \"\"\n",
+    "\n",
+    "    Create the variable above and check whether name is truthy or falsy.\n",
+    "    \n",
+    "    Print the result."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "a977e7ae-d98a-4605-8364-0a82efa39049",
+   "metadata": {},
+   "source": [
+    "### Question:25 CHECK IF NAME IS TRUTHY OR FALSY"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 53,
+   "id": "f78204a0-035e-4bdc-abfe-74b8920cf3b6",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "name: \n",
+      "is name truthy: False\n"
+     ]
+    }
+   ],
+   "source": [
+    "name = \"\"\n",
+    "result = bool(name)\n",
+    "print(\"name:\", name)\n",
+    "print(\"is name truthy:\", result)"
+   ]
+  },
+  {
+   "cell_type": "raw",
+   "id": "4a7252da-528e-49a7-8f29-a04b6ac2b00d",
+   "metadata": {},
+   "source": [
+    "## A student is buying a laptop.\n",
+    "\n",
+    "    Laptop price: Rs. 85,000\n",
+    "    Student has: Rs. 100,000\n",
+    "    Student gets a discount of Rs. 5,000\n",
+    "    A laptop bag costs Rs. 2,500\n",
+    "    The store has a promotion code \"SAVE10\".\n",
+    "\n",
+    "### Create variables and:\n",
+    "\n",
+    "    Calculate the laptop price after discount.\n",
+    "    Add the bag price to get the final bill.\n",
+    "    Calculate the remaining money.\n",
+    "    Check whether the student has enough money.\n",
+    "    Check whether \"SAVE10\" is present in the promotion code.\n",
+    "    Check whether the final bill is greater than Rs. 80,000.\n",
+    "    Store the result of whether the student has enough money in a variable and check whether it is truthy."
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "f25b60a6-bb36-448c-8b74-f78f810ddf9b",
+   "metadata": {},
+   "source": [
+    "### Question:26 STUDENT BUYING LAPTOP CALCULATION"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 54,
+   "id": "cdf6e821-59b1-43de-bfab-fd4a5859fa2f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "laptop_price =85000\n",
+    "student_money =100000\n",
+    "discount =5000\n",
+    "bag_price =2500\n",
+    "promo_code = \"SAVE10\"\n"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "527d0a18-42a7-432d-8637-c6e2f8f73327",
+   "metadata": {},
+   "source": [
+    "# 1.calculate laptop price after discount"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 55,
+   "id": "29c8d247-46d4-4787-afca-3d47466a2bbc",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "price_after_discount = laptop_price - discount"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "9a22dd6d-5af2-435f-aae8-9a89c33d75b2",
+   "metadata": {},
+   "source": [
+    "# 2.add bag price to get final bill "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 56,
+   "id": "c9c44095-1d57-47ef-ab48-d1b6f8c53736",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "final_bill = price_after_discount + bag_price"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "d0f9388b-ac92-4256-8b69-1417ccc3b7cf",
+   "metadata": {},
+   "source": [
+    "# 3.calculate remaining money "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 57,
+   "id": "23f4ed1d-afd0-4959-a440-9c661313837f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "remaining_money = student_money - final_bill"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b5df29a5-01e9-4f30-89b6-c10216b2086d",
+   "metadata": {},
+   "source": [
+    "# 4.check whether student has enough money"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 58,
+   "id": "f8cf52dc-eb7d-4f97-84c8-f747b0ef15fc",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "has_enough = student_money >= final_bill"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "0e1e8c68-ca09-4b5f-b9b8-a8aa88ccf417",
+   "metadata": {},
+   "source": [
+    "# 5.check whether \"SAVE10\" is present in promo code"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 60,
+   "id": "f84711ae-065d-4ada-b31f-394e5ba6ffbe",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "is_promo_valid = \"SAVE10\" in promo_code"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "b8439f0e-af8a-4aa7-83c2-135d30f77c23",
+   "metadata": {},
+   "source": [
+    "# 6.check whether final bill is greater than 80,000"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 61,
+   "id": "42e7df0c-7177-44d3-b4d9-baf2a7a98ff5",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "bill_greater_80000 = final_bill > 80000"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "c4627f85-f1b0-4a53-a023-864a58cf2dba",
+   "metadata": {},
+   "source": [
+    "# 7.store result and check whether it is truthy"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 62,
+   "id": "e8f97fa4-efdd-457d-a3f4-95fb9c31883f",
+   "metadata": {},
+   "outputs": [],
+   "source": [
+    "reult_truthy = bool(has_enough)"
+   ]
+  },
+  {
+   "cell_type": "markdown",
+   "id": "24df83b3-7305-483c-be81-d9a66c6cc07e",
+   "metadata": {},
+   "source": [
+    "# PRINT ALL RESULTS"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 68,
+   "id": "e0b209a2-5bd8-4f6a-b462-e0f9f0e9e4c0",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "laptop price after discount: 80000\n",
+      "final bill with bag: 82500\n",
+      "remaining money: 17500\n",
+      "has enough money: True\n",
+      "is promo code 'SAVE10' valid: True\n",
+      "is final bill > 80000: True\n",
+      "is 'not_enough' truthy: False\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"laptop price after discount:\", price_after_discount)\n",
+    "print(\"final bill with bag:\", final_bill)\n",
+    "print(\"remaining money:\", remaining_money)\n",
+    "print(\"has enough money:\", has_enough)\n",
+    "print(\"is promo code 'SAVE10' valid:\", is_promo_valid)\n",
+    "print(\"is final bill > 80000:\", bill_greater_80000)\n",
+    "\n",
+    "result_truthy= not has_enough\n",
+    "print(\"is 'not_enough' truthy:\", result_truthy)\n"
+   ]
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python 3 (ipykernel)",
+   "language": "python",
+   "name": "python3"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.14.6"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
